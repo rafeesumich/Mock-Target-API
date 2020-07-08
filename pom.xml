@@ -50,20 +50,6 @@
 				<apigee.options>update</apigee.options>
 			</properties>
 		</profile>
-		<profile>
-			<id>prod</id>
-			<properties>
-				<apigee.profile>prod</apigee.profile>
-				<apigee.env>prod</apigee.env>
-				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
-				<apigee.apiversion>v1</apigee.apiversion>
-				<apigee.org>${org}</apigee.org>
-				<apigee.username>${username}</apigee.username>
-				<apigee.password>${password}</apigee.password>
-				<apigee.options>override</apigee.options>
-				<apigee.override.delay>5</apigee.override.delay>
-			</properties>
-		</profile>
 	</profiles>
 
 	<build>
